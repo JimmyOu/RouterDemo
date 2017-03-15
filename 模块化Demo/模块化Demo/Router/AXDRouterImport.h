@@ -11,6 +11,7 @@
 
 #import "AXDRouter.h"
 #import "AXDRouter+LoginService.h"
+#import "AXDRouter+JSAPI.h"
 
 
 #endif /* AXDRouterImport_h */

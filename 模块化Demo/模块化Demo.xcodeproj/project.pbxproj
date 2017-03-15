@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60552D81E78E4D000436A48 /* JSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552D11E78E4D000436A48 /* JSBridge.m */; };
+		A60552D91E78E4D000436A48 /* JSPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552D31E78E4D000436A48 /* JSPluginManager.m */; };
+		A60552DA1E78E4D000436A48 /* JSResult.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552D51E78E4D000436A48 /* JSResult.m */; };
+		A60552DB1E78E4D000436A48 /* JSSuperPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552D71E78E4D000436A48 /* JSSuperPlugin.m */; };
+		A60552DE1E78E57000436A48 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552DD1E78E57000436A48 /* NSDictionary+Extension.m */; };
+		A60552E01E78EEEB00436A48 /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = A60552DF1E78EEEB00436A48 /* web.html */; };
+		A60552E71E78F2D400436A48 /* JS_Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552E61E78F2D400436A48 /* JS_Tools.m */; };
+		A60552ED1E78F47B00436A48 /* AXDRouter+JSAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552EC1E78F47B00436A48 /* AXDRouter+JSAPI.m */; };
+		A60552F01E790F9200436A48 /* _interface_jsapi.m in Sources */ = {isa = PBXBuildFile; fileRef = A60552EF1E790F9200436A48 /* _interface_jsapi.m */; };
 		A6FC69D41E5EEB79001E309B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC69D31E5EEB79001E309B /* main.m */; };
 		A6FC69D71E5EEB79001E309B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC69D61E5EEB79001E309B /* AppDelegate.m */; };
 		A6FC69DA1E5EEB79001E309B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FC69D91E5EEB79001E309B /* ViewController.m */; };
@@ -22,6 +31,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60552D01E78E4D000436A48 /* JSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridge.h; sourceTree = "<group>"; };
+		A60552D11E78E4D000436A48 /* JSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBridge.m; sourceTree = "<group>"; };
+		A60552D21E78E4D000436A48 /* JSPluginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPluginManager.h; sourceTree = "<group>"; };
+		A60552D31E78E4D000436A48 /* JSPluginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPluginManager.m; sourceTree = "<group>"; };
+		A60552D41E78E4D000436A48 /* JSResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSResult.h; sourceTree = "<group>"; };
+		A60552D51E78E4D000436A48 /* JSResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSResult.m; sourceTree = "<group>"; };
+		A60552D61E78E4D000436A48 /* JSSuperPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSuperPlugin.h; sourceTree = "<group>"; };
+		A60552D71E78E4D000436A48 /* JSSuperPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSSuperPlugin.m; sourceTree = "<group>"; };
+		A60552DC1E78E57000436A48 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		A60552DD1E78E57000436A48 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		A60552DF1E78EEEB00436A48 /* web.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
+		A60552E51E78F2D400436A48 /* JS_Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JS_Tools.h; sourceTree = "<group>"; };
+		A60552E61E78F2D400436A48 /* JS_Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JS_Tools.m; sourceTree = "<group>"; };
+		A60552EB1E78F47B00436A48 /* AXDRouter+JSAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AXDRouter+JSAPI.h"; sourceTree = "<group>"; };
+		A60552EC1E78F47B00436A48 /* AXDRouter+JSAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AXDRouter+JSAPI.m"; sourceTree = "<group>"; };
+		A60552EE1E790F9200436A48 /* _interface_jsapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _interface_jsapi.h; sourceTree = "<group>"; };
+		A60552EF1E790F9200436A48 /* _interface_jsapi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _interface_jsapi.m; sourceTree = "<group>"; };
 		A6FC69CF1E5EEB79001E309B /* 模块化Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "模块化Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FC69D31E5EEB79001E309B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6FC69D51E5EEB79001E309B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +85,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60552CF1E78E4D000436A48 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A60552D01E78E4D000436A48 /* JSBridge.h */,
+				A60552D11E78E4D000436A48 /* JSBridge.m */,
+				A60552D21E78E4D000436A48 /* JSPluginManager.h */,
+				A60552D31E78E4D000436A48 /* JSPluginManager.m */,
+				A60552D41E78E4D000436A48 /* JSResult.h */,
+				A60552D51E78E4D000436A48 /* JSResult.m */,
+				A60552D61E78E4D000436A48 /* JSSuperPlugin.h */,
+				A60552D71E78E4D000436A48 /* JSSuperPlugin.m */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
+		A60552E11E78F23400436A48 /* JS_Class */ = {
+			isa = PBXGroup;
+			children = (
+				A60552E51E78F2D400436A48 /* JS_Tools.h */,
+				A60552E61E78F2D400436A48 /* JS_Tools.m */,
+				A60552EE1E790F9200436A48 /* _interface_jsapi.h */,
+				A60552EF1E790F9200436A48 /* _interface_jsapi.m */,
+			);
+			path = JS_Class;
+			sourceTree = "<group>";
+		};
+		A68C84271E782DF9002BE272 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				A60552E11E78F23400436A48 /* JS_Class */,
+				A60552CF1E78E4D000436A48 /* JSBridge */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		A6FC69C61E5EEB79001E309B = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +139,7 @@
 		A6FC69D11E5EEB79001E309B /* 模块化Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A68C84271E782DF9002BE272 /* WebView */,
 				A6FC69E91E5EEBDD001E309B /* 登录业务模块 */,
 				A6FC69EA1E5EEBDD001E309B /* Category */,
 				A6FC69EB1E5EEBDD001E309B /* Router */,
@@ -88,6 +150,7 @@
 				A6FC69DB1E5EEB79001E309B /* Main.storyboard */,
 				A6FC69DE1E5EEB79001E309B /* Assets.xcassets */,
 				A6FC69E01E5EEB79001E309B /* LaunchScreen.storyboard */,
+				A60552DF1E78EEEB00436A48 /* web.html */,
 				A6FC69E31E5EEB79001E309B /* Info.plist */,
 				A6FC69D21E5EEB79001E309B /* Supporting Files */,
 			);
@@ -114,6 +177,8 @@
 		A6FC69EA1E5EEBDD001E309B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				A60552DC1E78E57000436A48 /* NSDictionary+Extension.h */,
+				A60552DD1E78E57000436A48 /* NSDictionary+Extension.m */,
 				A6FC69FF1E5EED53001E309B /* NSString+Extention.h */,
 				A6FC6A001E5EED53001E309B /* NSString+Extention.m */,
 				A6FC69FC1E5EED3B001E309B /* NSArray+Extension.h */,
@@ -139,6 +204,8 @@
 			children = (
 				A6FC69F31E5EEC35001E309B /* AXDRouter+LoginService.h */,
 				A6FC69F41E5EEC35001E309B /* AXDRouter+LoginService.m */,
+				A60552EB1E78F47B00436A48 /* AXDRouter+JSAPI.h */,
+				A60552EC1E78F47B00436A48 /* AXDRouter+JSAPI.m */,
 			);
 			path = "Router模块";
 			sourceTree = "<group>";
@@ -212,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FC69E21E5EEB79001E309B /* LaunchScreen.storyboard in Resources */,
+				A60552E01E78EEEB00436A48 /* web.html in Resources */,
 				A6FC69DF1E5EEB79001E309B /* Assets.xcassets in Resources */,
 				A6FC69DD1E5EEB79001E309B /* Main.storyboard in Resources */,
 			);
@@ -224,13 +292,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60552DB1E78E4D000436A48 /* JSSuperPlugin.m in Sources */,
 				A6FC69F61E5EEC35001E309B /* AXDRouter+LoginService.m in Sources */,
 				A6FC69F51E5EEC35001E309B /* AXDRouter.m in Sources */,
 				A6FC69DA1E5EEB79001E309B /* ViewController.m in Sources */,
+				A60552DE1E78E57000436A48 /* NSDictionary+Extension.m in Sources */,
 				A6FC69EE1E5EEBF8001E309B /* _interface_login.m in Sources */,
+				A60552D91E78E4D000436A48 /* JSPluginManager.m in Sources */,
+				A60552DA1E78E4D000436A48 /* JSResult.m in Sources */,
 				A6FC69D71E5EEB79001E309B /* AppDelegate.m in Sources */,
 				A6FC69D41E5EEB79001E309B /* main.m in Sources */,
+				A60552E71E78F2D400436A48 /* JS_Tools.m in Sources */,
 				A6FC69FE1E5EED3B001E309B /* NSArray+Extension.m in Sources */,
+				A60552ED1E78F47B00436A48 /* AXDRouter+JSAPI.m in Sources */,
+				A60552F01E790F9200436A48 /* _interface_jsapi.m in Sources */,
+				A60552D81E78E4D000436A48 /* JSBridge.m in Sources */,
 				A6FC6A011E5EED53001E309B /* NSString+Extention.m in Sources */,
 				A6FC69FB1E5EECBC001E309B /* NSObject+XPSuperInvoker.m in Sources */,
 			);
@@ -391,6 +467,7 @@
 				A6FC69E81E5EEB79001E309B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

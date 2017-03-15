@@ -41,4 +41,8 @@
     NSLog(@"%s   paramsIn :%@",__func__,str);
     return self;
 }
+
+- (void)dosomething:(NSString *)other {
+    NSLog(@"%s %@",__func__,other);
+}
 @end

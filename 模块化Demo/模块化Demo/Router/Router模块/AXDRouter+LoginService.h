@@ -16,6 +16,7 @@
 
 - (void)doBussiness;
 
+- (void)doSomething:(nonnull NSString *)other;
 
 
 @end

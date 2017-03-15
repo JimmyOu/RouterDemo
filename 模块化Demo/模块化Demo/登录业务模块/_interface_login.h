@@ -21,6 +21,8 @@
 //3.无返回值无参数
 - (void)dobussiness;
 
+- (void)dosomething:(nonnull NSString *)other;
+
 
 
 /*       URL调用     */

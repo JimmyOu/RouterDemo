@@ -22,5 +22,9 @@
     [AXDRouter dispatchInvokes:@"login" action:@"dobussiness" error:nil];
 }
 
+- (void)doSomething:(NSString *)other {
+     [AXDRouter dispatchInvokes:@"login" action:@"dosomething:" error:nil,other];
+}
+
 
 @end
